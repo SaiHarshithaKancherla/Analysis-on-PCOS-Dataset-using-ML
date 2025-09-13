@@ -5,6 +5,12 @@ To analyze women’s clinical and diagnostic data and build a predictive model t
 
 Data Description:-
 
+Records:541 samples
+
+Columns:43 variables 
+
+Target Variable:PCOS diagnosis(Yes/No)
+
 Categorical columns:                                   
 
 -PCOS (Y/N)
@@ -53,3 +59,17 @@ Continuous columns:
 -Avg. F size (L) (mm)
 -Avg. F size (R) (mm)
 -Endometrium (mm) 
+
+Approach:-
+
+Preprocessing: Handled missing values, outliers, and encoded categorical data.
+
+EDA: Analyzed symptom distributions, hormone irregularities, and lifestyle patterns.
+
+Models Used: Logistic Regression, KNN, Decision Tree, Random Forest, SVM, Bagging, Boosting, XGBoost, Neural Network.
+
+Results:-
+
+Key Indicators of PCOS: High BMI, irregular menstrual cycles, fast food consumption, low physical activity, and hormonal imbalances.
+
+Top Performing Model: Neural Network, with an accuracy of 92%(Split Ratio:-80:20) on the test data.
